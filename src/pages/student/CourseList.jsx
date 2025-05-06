@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React, { useContext,useState,useEffect } from 'react'
 import { AppContext } from '../../context/Appcontext'
+=======
+import React, { useContext } from 'react'
+import { AppContext } from '../../context/AppContext'
+>>>>>>> 6674a442bbdd1d75fbea2bb493fbe9102572e8a1
 import SearchBar from '../../components/student/SearchBar';
 import { useParams } from 'react-router-dom';
 import CourseCard from '../../components/student/CourseCard'
