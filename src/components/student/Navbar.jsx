@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/lms_logo.png' 
+import {assets} from '../../assets/assets'
 import userimg from "../../assets/user.png"
 import { useClerk,UserButton,useUser } from '@clerk/clerk-react'
 import { AppContext } from '../../context/Appcontext'
@@ -13,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-36 border-b bg-gradient-to-b from-green-200 border-gray-500 py-4'>
-        <img onClick={()=>navigate('/')} src={logo} alt="Logo" className='w-28 lg:w-32 cursor-pointer' />
+        <img onClick={()=>navigate('/')} src={assets.lms_logo} alt="Logo" className='w-28 lg:w-32 cursor-pointer' />
         <div className='hidden md:flex items-center gap-5 text-gray-500'>
             <div className='flex items-center gap-5'>
                 {<>
