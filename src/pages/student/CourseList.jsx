@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { AppContext } from '../../context/Appcontext'
+import { AppContext } from '../../context/AppContext'
 import SearchBar from '../../components/student/SearchBar';
 import { useParams } from 'react-router-dom';
 
